@@ -71,7 +71,7 @@
 
     var todoslosPacientes = radiologia.concat(traumatologia, dental);
     todoslosPacientes.map(paciente => {
-        document.write(`<p style="color:green">${paciente.paciente}</p>`)
+        document.write(`<p style="color:green">${todoslosPacientes.indexOf(paciente)+1} - ${paciente.paciente}</p>`)
     })
 
     //5 IMPRIMIR PACIENTES CON ISAPRE DE DENTAL 
